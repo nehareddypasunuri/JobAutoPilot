@@ -1,0 +1,12 @@
+streamlit
+pandas
+anthropic
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+apscheduler
+playwright
+requests
+reportlab
+python-dotenv
