@@ -1,0 +1,47 @@
+# Never copy these into the image
+.env
+*.env.local
+.env.*
+
+# Database files
+*.db
+*.db-wal
+*.db-shm
+/data/
+
+# Test files (not needed in production image)
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dev tools
+startup_check.py
+
+# Git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Gmail / OAuth tokens
+token.json
+credentials.json
+application_docs/
+
+# Deferred feature dirs (not imported in MVP)
+# (keep in repo, exclude from image to reduce size)
+# Uncomment when deferred features ship:
+# beta/
+# automation/

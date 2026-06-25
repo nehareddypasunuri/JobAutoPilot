@@ -1,0 +1,28 @@
+[run]
+source = .
+omit =
+    tests/*
+    startup_check.py
+    # Deferred features — not active in MVP
+    gmail_service.py
+    gmail_monitor.py
+    job_search.py
+    job_discovery.py
+    scheduler.py
+    referral_finder.py
+    referral_messages.py
+    referral_center.py
+    application_bot.py
+    application_queue.py
+    candidate_profile.py
+    ats_apply/*
+    job_sources/*
+    email_classifier.py
+
+[report]
+precision = 1
+show_missing = true
+skip_empty = true
+
+[html]
+directory = htmlcov
