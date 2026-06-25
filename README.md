@@ -1,4 +1,3 @@
-
 # 🚀 HirePilot
 
 ### Your AI Career Copilot for Smarter Job Applications
@@ -8,17 +7,16 @@
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
-![Made With](https://img.shields.io/badge/Built%20With-Claude%20AI%20%26%20Python-purple)
 
 ---
 
 # 📌 Overview
 
-Applying for jobs is often fragmented across multiple job boards, resumes, cover letters, spreadsheets, emails, and interview notes.
+Applying for jobs is often fragmented across multiple job boards, resumes, cover letters, spreadsheets, emails, interview notes, and company portals.
 
-**HirePilot** brings everything together into a single AI-powered platform designed to make the job search faster, smarter, and more organized.
+**HirePilot** brings everything together into one AI-powered platform designed to simplify the entire job application process.
 
-Whether you're a student, recent graduate, international candidate, career switcher, or experienced professional, HirePilot helps improve application quality while reducing repetitive work.
+Whether you're a student, recent graduate, international candidate, career switcher, or experienced professional, HirePilot helps users apply smarter, stay organized, and improve application quality while reducing repetitive work.
 
 ---
 
@@ -37,15 +35,15 @@ Whether you're a student, recent graduate, international candidate, career switc
 
 ---
 
-# 🚧 Planned Features
+# 🚀 Planned Features
 
-- 🔍 AI Job Discovery
+- 🔍 Multi-platform Job Discovery
 - 🤝 Referral Finder
 - 📧 Gmail Integration
 - 📅 Interview Tracker
 - 📈 Career Analytics Dashboard
 - 🌐 Browser-assisted Application Workflow
-- 🤖 AI Career Insights
+- 🤖 AI Career Assistant
 - 📱 Mobile-Friendly Experience
 
 ---
@@ -77,6 +75,8 @@ Whether you're a student, recent graduate, international candidate, career switc
 ---
 
 # 🎯 Who Is HirePilot For?
+
+HirePilot is built for:
 
 - 🎓 Students
 - 🌍 International Students (F-1 / OPT)
@@ -111,7 +111,7 @@ HirePilot/
 
 # 🎬 Demo
 
-🚧 Live demo and screenshots will be added as development progresses.
+🚧 Screenshots, live demo, and walkthrough video will be added as development progresses.
 
 ---
 
@@ -123,37 +123,37 @@ HirePilot/
 - ATS Resume Scoring
 - Resume Tailoring
 - Cover Letter Generation
-- Application Tracker
+- Application Tracking
 
 ## Phase 2
 
 - Multi-platform Job Discovery
 - Gmail Integration
 - Interview Management
-- Referral Tracking
+- Referral Finder
 
 ## Phase 3
 
-- AI Career Coach
-- Browser Extension
+- Browser-assisted Application Workflow
+- AI Career Assistant
 - Career Analytics
-- Collaboration Features
+- Enhanced User Experience
 
 ---
 
-# 🎯 Vision
+# 🌟 Vision
 
-Our goal is to build an intelligent career platform where users can:
+HirePilot aims to become an intelligent career platform where job seekers can:
 
-- Discover relevant job opportunities
+- Discover relevant opportunities
 - Optimize resumes for ATS systems
 - Generate personalized application materials
 - Track every application
 - Prepare for interviews
-- Manage referrals
+- Find referrals
 - Gain AI-powered career insights
 
-—all from one platform.
+—all from one unified platform.
 
 ---
 
@@ -161,7 +161,7 @@ Our goal is to build an intelligent career platform where users can:
 
 Contributions, ideas, bug reports, and feature suggestions are welcome.
 
-If you'd like to contribute, feel free to open an Issue or submit a Pull Request.
+If you'd like to improve HirePilot, feel free to open an Issue or submit a Pull Request.
 
 ---
 
