@@ -1,0 +1,31 @@
+# docker-compose.yml — local development with Docker
+# For production, use Render/Railway/Fly.io instead of compose.
+
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      # Copy from .env or pass directly
+      HIREPILOT_SECRET_KEY: ${HIREPILOT_SECRET_KEY}
+      HIREPILOT_DB_PATH: /data/hirepilot.db
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      # Persistent SQLite database
+      - hirepilot_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  hirepilot_data:
+    driver: local
