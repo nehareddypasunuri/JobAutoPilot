@@ -1,0 +1,8 @@
+# Railway environment variables
+# Set these with: railway variables set KEY=value
+# Or via the Railway dashboard → Variables tab
+
+HIREPILOT_SECRET_KEY=your-secret-key-here-generate-with-python3-secrets
+HIREPILOT_DB_PATH=/app/data/hirepilot.db
+LOG_LEVEL=INFO
+PORT=8501

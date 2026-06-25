@@ -1,0 +1,48 @@
+# Render deployment configuration
+# https://render.com/docs/render-yaml-spec
+#
+# Deploy steps:
+# 1. Push to GitHub
+# 2. Connect Render to this repo
+# 3. Set environment variables (HIREPILOT_SECRET_KEY) in Render dashboard
+# 4. Render detects this file and configures automatically
+
+services:
+  - type: web
+    name: hirepilot
+    runtime: python
+    region: oregon           # us-west-2 — good latency for US users
+    plan: starter            # $7/month — has persistent disk support
+    branch: main
+
+    buildCommand: pip install -r requirements.txt
+
+    startCommand: >
+      streamlit run app.py
+      --server.port $PORT
+      --server.address 0.0.0.0
+      --server.headless true
+      --server.enableCORS false
+      --server.enableXsrfProtection true
+
+    healthCheckPath: /_stcore/health
+
+    # Persistent disk for SQLite database
+    # Without this, the DB resets on every deploy
+    disk:
+      name: hirepilot-data
+      mountPath: /data
+      sizeGB: 1
+
+    envVars:
+      - key: HIREPILOT_DB_PATH
+        value: /data/hirepilot.db
+      - key: HIREPILOT_SECRET_KEY
+        sync: false          # Set manually in Render dashboard — never in code
+      - key: LOG_LEVEL
+        value: INFO
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+
+    # Auto-deploy on push to main
+    autoDeploy: true

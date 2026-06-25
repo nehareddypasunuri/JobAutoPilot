@@ -1,0 +1,21 @@
+# Railway deployment configuration
+# https://docs.railway.app/reference/config-as-code
+#
+# Deploy steps:
+# 1. Install Railway CLI: npm install -g @railway/cli
+# 2. railway login
+# 3. railway init (link to project)
+# 4. Set secrets: railway variables set HIREPILOT_SECRET_KEY=<your-key>
+# 5. railway up
+#
+# Or connect GitHub in the Railway dashboard for automatic deploys.
+
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true --server.enableCORS false"
+healthcheckPath = "/_stcore/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
