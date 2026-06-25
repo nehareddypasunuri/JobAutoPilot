@@ -1,87 +1,88 @@
+
 # 🚀 HirePilot
 
-### Helping job seekers land better opportunities with AI.
+### Your AI Career Copilot for Smarter Job Applications
 
-> **HirePilot is an AI-powered career platform that helps users optimize resumes, generate tailored application materials, track job applications, and streamline the job search process.**
+> **HirePilot is an AI-powered career platform that helps job seekers discover opportunities, optimize resumes, generate personalized application materials, and manage their entire job search journey from one intelligent workspace.**
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-orange)
+![Made With](https://img.shields.io/badge/Built%20With-Claude%20AI%20%26%20Python-purple)
 
 ---
 
 # 📌 Overview
 
-Searching for jobs often means juggling multiple websites, spreadsheets, resumes, cover letters, and application trackers.
+Applying for jobs is often fragmented across multiple job boards, resumes, cover letters, spreadsheets, emails, and interview notes.
 
-HirePilot brings everything together into one platform to help job seekers stay organized and improve the quality of every application.
+**HirePilot** brings everything together into a single AI-powered platform designed to make the job search faster, smarter, and more organized.
 
-Whether you're a student, recent graduate, international candidate, career switcher, or experienced professional, HirePilot is designed to simplify and accelerate the job search journey.
+Whether you're a student, recent graduate, international candidate, career switcher, or experienced professional, HirePilot helps improve application quality while reducing repetitive work.
 
 ---
 
 # ✨ Current Features
 
-* 🎯 ATS Resume Match Scoring
-* 📄 AI Resume Tailoring
-* ✉️ AI Cover Letter Generation
-* 📊 Job Application Tracking
-* 🔐 Secure Authentication
-* 👤 Multi-user Architecture
-* 🗄️ PostgreSQL / Supabase Ready
-* 🧪 Automated Testing
-* 🐳 Docker Support
-* ☁️ Deployment Ready (Render & Railway)
+- 🎯 ATS Resume Match Scoring
+- 📄 AI Resume Tailoring
+- ✉️ AI Cover Letter Generation
+- 📊 Job Application Tracking
+- 🔐 Secure User Authentication
+- 👤 Multi-user Architecture
+- 🗄️ PostgreSQL / Supabase Support
+- 🧪 Automated Testing
+- 🐳 Docker Support
+- ☁️ Deployment Ready (Render & Railway)
 
 ---
 
 # 🚧 Planned Features
 
-* 🔍 Multi-platform Job Discovery
-* 📧 Gmail Integration
-* 🤝 Referral Management
-* 📅 Interview Tracking
-* 📈 Career Analytics Dashboard
-* 🌐 Browser-assisted Application Workflow
-* 🤖 AI Career Insights
+- 🔍 AI Job Discovery
+- 🤝 Referral Finder
+- 📧 Gmail Integration
+- 📅 Interview Tracker
+- 📈 Career Analytics Dashboard
+- 🌐 Browser-assisted Application Workflow
+- 🤖 AI Career Insights
+- 📱 Mobile-Friendly Experience
 
 ---
 
 # 🛠️ Technology Stack
 
-### Backend
+## Backend
 
-* Python
-* Streamlit
-* PostgreSQL
-* Supabase
+- Python
+- Streamlit
+- PostgreSQL
+- Supabase
 
-### Artificial Intelligence
+## Artificial Intelligence
 
-* Anthropic Claude API
+- Anthropic Claude API
 
-### DevOps
+## DevOps
 
-* Docker
-* GitHub Actions
-* Render
-* Railway
+- Docker
+- GitHub Actions
+- Render
+- Railway
 
-### Testing
+## Testing
 
-* Pytest
+- Pytest
 
 ---
 
-# 🎯 Target Users
+# 🎯 Who Is HirePilot For?
 
-HirePilot is built for:
-
-* 🎓 Students
-* 🌍 International Students (F-1 / OPT)
-* 🎉 New Graduates
-* 🔄 Career Switchers
-* 💼 Experienced Professionals
+- 🎓 Students
+- 🌍 International Students (F-1 / OPT)
+- 🎉 New Graduates
+- 🔄 Career Switchers
+- 💼 Experienced Professionals
 
 ---
 
@@ -97,11 +98,12 @@ HirePilot/
 ├── resume_tailor.py
 ├── cover_letter.py
 ├── sanitize.py
-├── tests/
+├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
 ├── render.yaml
 ├── railway.toml
+├── tests/
 └── README.md
 ```
 
@@ -109,39 +111,57 @@ HirePilot/
 
 # 🎬 Demo
 
-🚧 Screenshots and live demo will be added as development progresses.
+🚧 Live demo and screenshots will be added as development progresses.
 
 ---
 
 # 🗺️ Roadmap
 
-### Phase 1
+## Phase 1 — MVP
 
-* User authentication
-* ATS scoring
-* Resume tailoring
-* Cover letter generation
-* Application tracking
+- User Authentication
+- ATS Resume Scoring
+- Resume Tailoring
+- Cover Letter Generation
+- Application Tracker
 
-### Phase 2
+## Phase 2
 
-* Job aggregation
-* Gmail integration
-* Interview tracker
+- Multi-platform Job Discovery
+- Gmail Integration
+- Interview Management
+- Referral Tracking
 
-### Phase 3
+## Phase 3
 
-* Referral management
-* AI career insights
-* Advanced analytics
+- AI Career Coach
+- Browser Extension
+- Career Analytics
+- Collaboration Features
+
+---
+
+# 🎯 Vision
+
+Our goal is to build an intelligent career platform where users can:
+
+- Discover relevant job opportunities
+- Optimize resumes for ATS systems
+- Generate personalized application materials
+- Track every application
+- Prepare for interviews
+- Manage referrals
+- Gain AI-powered career insights
+
+—all from one platform.
 
 ---
 
 # 🤝 Contributing
 
-Contributions, bug reports, feature ideas, and suggestions are welcome.
+Contributions, ideas, bug reports, and feature suggestions are welcome.
 
-If you'd like to help improve HirePilot, feel free to open an issue or submit a pull request.
+If you'd like to contribute, feel free to open an Issue or submit a Pull Request.
 
 ---
 
